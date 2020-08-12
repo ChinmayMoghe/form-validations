@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form validations based on Regex</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>Basic form field validations required for projects</h2>
+        <form>
+            <div class="form-field">
+                <label for="username">Username with limit of 8(min) , 50(max) alphabet characters only (latin characters
+                    only).</label>
+                <input type="text" name="username" />
+                <div><span class="msg-text"></span></div>
+            </div>
+            <div class="form-field">
+                <label for="password">Password with atleast three special characters, three digits , three capital
+                    letters and length greater than or equal to 10.</label>
+                <input type="password" name="password" />
+                <div><span class="msg-text"></span></div>
+            </div>
+            <div class="form-field">
+                <label for="email">Check for valid email.</label>
+                <input type="email" name="email" />
+                <div><span class="msg-text"></span></div>
+            </div>
+            <div class="form-field">
+                <label for="pancard">Indian pancard validation</label>
+                <input type="text" name="pancard" />
+                <div><span class="msg-text"></span></div>
+            </div>
+            <div class="form-field">
+                <label for="passport">Indian passport</label>
+                <input type="text" name="passport">
+                <div><span class="msg-text"></span></div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
